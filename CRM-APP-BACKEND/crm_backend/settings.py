@@ -7,7 +7,7 @@ from datetime import timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-crm-4b-dev-key-change-in-production'
+SECRET_KEY = 'your secret key here'
 
 DEBUG = True
 
@@ -64,7 +64,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'crm_db',
         'USER': 'postgres',
-        'PASSWORD': '6678',
+        'PASSWORD': 'your PgAdmin password here',
         'HOST': 'localhost',
         'PORT': '5432',
     }
